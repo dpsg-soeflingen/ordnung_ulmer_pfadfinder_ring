@@ -1,0 +1,1 @@
+For the document in its current state, see [[https://github.com/dpsg-soeflingen/satzung_ulmer_pfadfinder_ring/blob/master/src/satzung.pdf][here]].
