@@ -4,7 +4,9 @@
 
 \usepackage{enumitem}
 \newlist{legal}{enumerate}{10}
-\setlist[legal]{label*=\arabic*.}
+\setlist[legal]  {label*=\arabic*.}
+\setlist[legal,1]{label*=\arabic*., font=\bfseries,   before=\bfseries}
+\setlist[legal,2]{label*=\arabic*., font=\normalfont, before=\normalfont}
 
 \setlength\parindent{0pt}
 
