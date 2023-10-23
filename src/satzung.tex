@@ -1,7 +1,9 @@
 \documentclass[11 pt]{article}
 
+% Configure padding around document.
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 
+% Configure list items for "legal" text formatting.
 \usepackage{enumitem}
 \newlist{legal}{enumerate}{10}
 \setlist[legal]  {label*=\arabic*.}
@@ -13,8 +15,10 @@
 \renewcommand{\rmdefault}{phv} % Use Helvetica for the serif font.
 \renewcommand{\sfdefault}{phv} % Use Helvetica for the sans-serif font.
 
+% Do not indent text after newline.
 \setlength\parindent{0pt}
 
+% Begin document & include sub-sections.
 \begin{document}
     \input{sections/0_titelseite.tex}
     \newpage \pagenumbering{gobble}
