@@ -18,6 +18,21 @@
 % Do not indent text after newline.
 \setlength\parindent{0pt}
 
+% Define command for displaying signature of a single person.
+\newcommand{\stavosignature}[0]{
+    \vspace{30pt}
+    \hrule
+    \vspace{3pt}
+    \begin{small}(Ort, Datum, Name, Unterschrift)\end{small}
+}
+% Define command for displaying signatures of a scouting organization's presidents.
+\newcommand{\stammsignature}[1]{
+    \ \\ \\ \\
+    \begin{large}\textbf{#1}\end{large}
+    \stavosignature
+    \stavosignature
+}
+
 % Begin document & include sub-sections.
 \begin{document}
     \input{sections/0_titelseite.tex}
