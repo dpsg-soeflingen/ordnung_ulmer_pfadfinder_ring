@@ -1,1 +1,3 @@
-For the document in its current state, see [[https://github.com/dpsg-soeflingen/satzung_ulmer_pfadfinder_ring/blob/master/src/satzung.pdf][here]].
+Dies ist die Ordnung des Ulmer-Pfadfinderrings, die im Meeting der Stammes-Vorstaende am 09. November 2023 finalisiert und verabschiedet wurde.
+
+Fuer die aktuellste Version des Dokuments, siehe [[https://github.com/dpsg-soeflingen/satzung_ulmer_pfadfinder_ring/blob/master/src/satzung.pdf][hier]].
